@@ -42,7 +42,7 @@ Blinkit data teams solve in production every day.
 ## Project structure
 
 ## How to run locally
-```bash
+bash
 # 1. Clone the repo
 git clone https://github.com/HimanshuB13/delhi-food-delivery-forecast.git
 cd delhi-food-delivery-forecast
@@ -78,19 +78,3 @@ streamlit run dashboard/app.py
 - Delhi festival calendar — Diwali, Holi, IPL, monsoon events
 - 6 Delhi zones: Connaught Place, South Delhi, North Delhi,
   East Delhi, West Delhi, Noida
-
-## Resume bullets
-> Built real-time food delivery demand forecasting pipeline for 6 Delhi zones
-> using Apache Kafka streaming, Redis feature store and XGBoost model
-> (R² 0.857, MAE ±25 orders) — predicting order surges 30 minutes ahead
-> from live OpenWeatherMap data and historical demand patterns
-
-> Discovered peak meal hours drive 92.6% of demand variation across
-> 25,926 training samples — deployed as live Streamlit dashboard with
-> auto-refresh, surge alerts and Delhi zone heatmap
-"""
-
-with open('../README.md', 'w') as f:
-    f.write(readme)
-print('README.md written!')
-README.md written!
