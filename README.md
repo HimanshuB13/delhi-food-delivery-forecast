@@ -1,5 +1,5 @@
 
-readme = """# 🍕 Delhi Food Delivery — Live Demand Forecast
+# 🍕 Delhi Food Delivery — Live Demand Forecast
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-4.2-black)
